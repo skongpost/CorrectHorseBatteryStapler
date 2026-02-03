@@ -1,0 +1,22 @@
+.title {
+  font-style: italic;
+  color: blueviolet;
+  font-size: 60px;
+  font-family: Verdana;
+}
+
+/* heading */
+th {
+  color: black;
+  font-size: 35px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+/* content */
+td {
+  color: brown;
+  font-size: 30px;
+  text-align: center;
+  font-family: sans-serif;
+}
