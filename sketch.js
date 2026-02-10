@@ -1,8 +1,8 @@
-let currentInput = ' ';
-let currentOperation = ' ';
-let previousInput = ' ';
+let currentInput = '';
+let currentOperation = '';
+let previousInput = '';
 
-function appendNumber(number) {
+function appendNumber(number){
     currentInput += number;
     document.getElementById('display').value = `${previousInput} ${currentOperation} ${currentInput}`;
 }
