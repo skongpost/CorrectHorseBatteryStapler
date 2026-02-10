@@ -1,6 +1,6 @@
-let currentInput = '';
-let currentOperation = '';
-let previousInput = '';
+let currentInput = ' ';
+let currentOperation = ' ';
+let previousInput = ' ';
 
 function appendNumber(number) {
     currentInput += number;
@@ -9,7 +9,7 @@ function appendNumber(number) {
 
 function appendOperation(operation) {
     if (currentInput === '') return;
-    if (previousInput !== '') {
+    else if (previousInput !== '') {
         calculate(); 
     }
     currentOperation = operation;
