@@ -1,3 +1,4 @@
+
 let currentInput = '';
 let currentOperation = '';
 let previousInput = '';
