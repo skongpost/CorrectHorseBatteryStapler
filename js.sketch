@@ -103,7 +103,7 @@
         let previousInput = '';
 
         function appendNumber(number) {
-            currentInput += number;
+            currentInput += numbr;
             document.getElementById('display').value = `${previousInput} ${currentOperation} ${currentInput}`;
         }
 
